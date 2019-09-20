@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+body {
+width: 100%;
+margin: 0;
+}
+h2 {
+width:100%;
+margin:0px 0 91px 0; 
+color: #333333;
+font-size: 30px;
+font-weight: 700;
+line-height: 27px;
+font-family: Tahoma;
+text-align: center;
+}
+.wrapper {
+  width: 1140px;
+  background-image: url(../img/bg.png);
+  margin: 0 auto;
+}
+.card {
+  width: 100%;
+  padding: 77px 0 96px 0;
+  display: flex; 
+  justify-content: space-around;
+  font-family: Tahoma;
+}
+.card_img {
+width: 404px;
+height: 652px;
+}
+.description {
+  width: 530px;
+
+}
+.description_name {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 50px 0 15px 0;
+}
+.description_name--little-text {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.description_text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 47px;
+}
+.description_price {
+  width: 100%;
+  display: block;
+  margin-bottom: 53px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.button {
+  padding: 22px 42px 22px 46px;
+  border-radius: 5px;
+  font-size: 24px;
+  border:none;
+  outline: none;
+}
+.buy-box {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.buy-box_buy {
+  background-color: #f05a22;
+  color: #ffffff;
+}
+.buy-box_detail {
+  border: 2px solid #f05a22;
+  color: #f05a22;;
+  background-color: rgba(180, 180, 180, 0.01);
+}
+.gray-box{
+  background-color: rgba(242, 242, 242, 0.8);
+  width: 100%;
+}
+.delivery {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  padding: 89px 0 99px 0;
+  
+}
+.delivery-item_img{
+  display: block;
+  margin: 0 auto;
+} 
+.icon-1 {
+width: 54px;
+height: 50px;
+margin-bottom: 16px;
+}
+.icon-2 {
+  width: 58px;
+  height: 38px;
+  margin-bottom: 23px;
+}
+.icon-3 {
+  width: 58px;
+  height: 36px;
+  margin-bottom: 26px;
+}
+.icon-4 {
+  width: 54px;
+  height: 40px;
+  margin-bottom: 23px;
+}
+.delivery span {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
