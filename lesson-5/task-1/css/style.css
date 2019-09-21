@@ -1,0 +1,89 @@
+body {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+}
+h1, h2 {
+  text-align: center;
+}
+p {
+  text-align: justify;
+  font-size: 18px;
+  text-indent: 30px;
+}
+span{
+  font-size: 18px;
+}
+a {
+  color:black;
+}
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+.text-underline {
+  text-decoration: underline;
+}
+.text-line-through {
+  text-decoration: line-through;
+}
+.text-mark {
+  background-color: yellow;
+}
+.passe-partout {
+  padding: 15px;
+  background: #f0f0f0; 
+  border: 2px solid #666; 
+ }
+ .chapter {
+  overflow: hidden; 
+   padding: 10px;
+   margin-bottom: 20px;
+ }
+ #chapter-1 {
+   background-color:#EFE2B1;
+ }
+ #chapter-2 {
+  background-color: #EFD3C2;
+}
+#chapter-3 {
+  background-color: #EFE5C2;
+}
+#chapter-4 {
+  background-color: #EFD3C2;
+}
+#chapter-5 {
+  background-color: #EFDEC2;
+}
+.abstract {
+  overflow: hidden; 
+  background-color: #A6B4C9;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.abstract_img {
+  float:left;
+  margin: 0 15px 15px 0;
+  width: 20%;
+}
+.chapter-1_img {
+  float: left;
+  margin: 0 15px 15px 0;
+  width:30%;
+}
+.chapter-5_img {
+  float: right;
+  margin: 0 0px 15px 15px;
+  width:40%;
+}
+.contents {
+  padding: 10px;
+  background-color: #DFAA7D;
+  margin-bottom: 20px;
+}
+.contents ul {
+  font-size: 18px;
+}
