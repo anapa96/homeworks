@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Arial Bold';
+  src: url('../fonts/Arial/Arial-BoldMT.eot');
+  src: url('../fonts/Arial/Arial-BoldMT.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Arial/Arial-BoldMT.woff') format('woff'),
+  url('../fonts/Arial/Arial-BoldMT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Arial Italic';
+  src: url('../fonts/Arial/Arial-ItalicMT.eot');
+  src: url('../fonts/Arial/Arial-ItalicMT.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Arial/Arial-ItalicMT.woff') format('woff'), 
+  url('../fonts/Arial/Arial-ItalicMT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@mixin bold {
+  font-family: 'Arial Bold', sans-serif;
+  font-weight: 400;
+}
+@mixin Italic {
+  font-family: 'Arial Italic', sans-serif;
+  font-weight: 400;
+}
