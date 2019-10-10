@@ -1,0 +1,95 @@
+.body {
+  color: #32325f;
+  font-family: sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+.description {
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.price-tag {
+  font-size: 20px;
+  font-weight: 400;
+  }
+.price {
+  margin-bottom: 39px;
+  font-size: 48px;
+  font-weight: 400;
+  color: #525f7f;
+}
+.main {
+  margin-top: 100px;
+}
+.hero {
+  background-color: #f4f5f7;
+  padding-top:74px;
+  padding-bottom: 180px;
+}
+.my-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.my-btn--green {
+  margin-right: 20px;
+}
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.about-block {
+  margin-top: 100px;
+}
+.section-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.section-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+.section-heading {
+  margin-bottom: 28px;
+}
+.people {
+  background-color: #f4f5f7;
+}
+.wrap-photo {
+  max-height: 254px;
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #32325f;
+  color:#ffffff;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.footer-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.footer p {
+  line-height: 1.4;
+}
+.footer a {
+  color: #ffffff;
+  display: block;
+}
